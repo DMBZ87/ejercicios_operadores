@@ -12,5 +12,10 @@ Algoritmo conversor_moneda
 	
 	//regrese al usuario el resultado, sea creativo en su respuesta
 	
-	
+	Escribir "Bienvenido al conversor de moneda"
+	Definir us, pesos Como real
+	pesos = 3783.15 
+	Escribir "Escriba el valor en US dólares"
+	Leer US
+	Escribir "La conversión de moneda a pesos es:" US*pesos " COP"
 FinAlgoritmo
